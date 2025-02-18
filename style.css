@@ -4,7 +4,7 @@ body {
     font-size: 14px;
     line-height: 18px;
     color: #000000;
-    background: #ffffff url("img/muffin-background.jpg") no-repeat 50% 0;
+    background: #ffffff url("img/preview.jpg") no-repeat 50% 0;
   }
   
   h1 {
@@ -63,17 +63,17 @@ body {
   
   .feature-kitten {
     padding-top: 60px;
-    background-image: url("img/bottle.svg");
+    background-image: url("img/in-love.png");
   }
   
   .feature-cat {
     padding-top: 60px;
-    background-image: url("img/cat.svg");
+    background-image: url("img/hearts.png");
   }
   
   .feature-train {
     padding-top: 60px;
-    background-image: url("img/whistle.svg");
+    background-image: url("img/love-letter.png");
   }
   
   .skills-list {
