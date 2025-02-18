@@ -1,14 +1,12 @@
 const arrayOfLoveWishes = [
-    "Нехай кожендень приносить радість і тепло!",
-    "Любові та щастя вам!",
-    "Нехай кохання буде вічним!",
-    "Бажаю багато конання та щастя!",
-    "Нехай коханя буде!",
-    "Бажаю багато кохання.",
-    "Нехай кохання буде вічним!❤️!",
-
+    "May every day bring you joy and warmth!",
+    "Wishing you love and happiness!",
+    "May your love be eternal!",
+    "Wishing you lots of love and happiness!",
+    "May love always be with you!",
+    "Wishing you lots of love.",
+    "May your love be eternal! ❤️",
 ]
 document.getElementById('btn_love_wishes').addEventListener('click', () => {
 let index = Math.floor(Math.random()* arrayOfLoveWishes.length)
-    document.getElementById('love-wishes').innerText = arrayOfLoveWishes [index]
-    })
+    document.getElementById('love-wishes').innerText = arrayOfLoveWishes [index]})
